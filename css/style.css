@@ -1,3 +1,4 @@
+/*Header*/
 header {
   background-image: url(../img/bg-header.jpg);
   background-repeat: no-repeat;
@@ -52,3 +53,50 @@ header ul li a:hover {
   color: #CCCCCC;
   margin-top: 95px;
 }
+/*Header*/
+
+/*Services*/
+.services {
+	padding: 90px 0 95px 0;
+}
+.services__title {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-size: 40px;
+	position: relative;
+}
+
+.services__title:after {
+  content: "";
+  background-color: #36B9EB;
+  height: 1px;
+  width: 110px;
+  left: 50%;
+  bottom: -40px;
+  margin-left: -55px;
+  position: absolute;
+}
+
+.services__item {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.services__item__title {
+	display: block;
+	font-family: Montserrat;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 38px;
+}
+
+.services__item__text {
+	display: inline-block;
+	max-width: 320px;
+	font-family: Noto Sans;
+	font-size: 14px;
+	color: #888888;
+	margin-top: 15px;
+}
+/*Services*/
