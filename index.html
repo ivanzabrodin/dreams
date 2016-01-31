@@ -9,27 +9,55 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>  
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'> 
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> 
 </head>
-<body>
+<body id="page-top" class="index">
   <!-- Header -->
-  <header>
+
+
+
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-2">
-          <a href="" class="header__logo pull-left"><img src="img/logo.png" alt=""></a>
-        </div>
-        <nav>
-          <ul class="hidden-xs hidden-sm col-lg-8 col-lg-offset-2 list-inline pull-right text-right">
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </nav>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand smoothScroll" href="#page-top">Dreams</a>
       </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a href="#services" class="smoothScroll">Services</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Team</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+
+
+
+
+
+      </nav>
+    </div>
+    <header>
       <h1 class="header__title text-center"><strong>Build the website<br>of your dreams</strong></h1>
       <h3 class="header__subtitle text-center">We are a digital agency that believes in building<br>things that are  meaningful!</h3>
     </div>
@@ -37,16 +65,16 @@
   <!-- Header -->
 
   <!-- Services -->
-  <div class="services">
+  <div class="services" id="services">
     <div class="container">
-      <h1 class="services__title text-center"><strong>Core Services</strong></h1>
+      <h3 class="services__title text-center">Core Services</h3>
       <div class="row">
         <div class="col-md-4 col-lg-4">
           <div class="services__item">
             <img src="img/services1.png" alt="Tools" class="text-center">
             <span class="services__item__title">Beautiful Designs</span>
             <span class="services__item__text">Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.
-</span>
+            </span>
           </div>
         </div>
         <div class="col-md-4 col-lg-4">
@@ -54,15 +82,15 @@
             <img src="img/services2.png" alt="Flow-Tree" class="text-center">
             <span class="services__item__title">Web Development</span>
             <span class="services__item__text">Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.
-</span>
+            </span>
           </div>
         </div>
         <div class="col-md-4 col-lg-4">
           <div class="services__item">
-            <img src="img/services3.png" alt="lifebuoy" class="text-center">
+            <img src="img/services3.png" alt="Lifebuoy" class="text-center">
             <span class="services__item__title">24/7 Support</span>
             <span class="services__item__text">Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.
-</span>
+            </span>
           </div>
         </div>
       </div>
@@ -70,21 +98,49 @@
   </div>
   <!-- Services -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!-- Expertise -->
+  <div class="expertise">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h3 class="expertise__title">Other Expertise</h3>
+          <span class="expertise__text">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt consequat sem cure  digni ssim. </span>
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="img/gearicon.png" alt="Gear" class="expertise__icon">
+              <span class="expertise__item-title">Custom setup</span>
+              <span class="expertise__item-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</span>
+            </div>
+            <div class="col-lg-6">
+              <img src="img/cloudicon.png" alt="Cloud" class="expertise__icon">
+              <span class="expertise__item-title">Cloud Control</span>
+              <span class="expertise__item-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="img/staricon.png" alt="Star" class="expertise__icon"> 
+              <span class="expertise__item-title">All Star Support Team</span>
+              <span class="expertise__item-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</span>
+            </div>
+            <div class="col-lg-6">
+              <img src="img/lockicon.png" alt="Lock" class="expertise__icon">
+              <span class="expertise__item-title">Top Notch Security</span>
+              <span class="expertise__item-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</span>
+            </div>
+          </div>
+          <div class="row"><a href="#" class="expertise__btn">Learn More</a></div>
+        </div>
+        <div class="col-lg-4 expertise__img"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Expertise -->
   
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/animatedheader.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
