@@ -125,6 +125,7 @@ header {
 .services {
   padding: 90px 0 95px 0;
 }
+
 .services__title {
   font-family: Montserrat;
   text-transform: uppercase;
@@ -235,7 +236,7 @@ header {
 
 /*Portfolio*/
 .portfolio {
-
+  padding-bottom: 80px;
 }
 
 .portfolio__title {
@@ -252,10 +253,6 @@ header {
   font-size: 14px;
   max-width: 535px;
   margin-bottom: 30px;
-}
-
-.portfolio__item-img {
-  
 }
 
 .portfolio__item-title {
@@ -278,4 +275,75 @@ header {
   background-repeat: no-repeat;
   background-position: left center;
   height: 700px;
+}
+/*Portfolio*/
+
+/*Team*/
+.team {
+  padding: 50px 0 100px 0;
+  background-color: #f7f7f7;
+}
+
+.team__title {
+  font-family: Montserrat;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 700;
+}
+
+.team__title:after {
+  content: "";
+  background-color: #36B9EB;
+  height: 1px;
+  width: 110px;
+  left: 50%;
+  bottom: -25px;
+  margin-left: -55px;
+  position: absolute;
+}
+
+.team__item {
+  margin: 50px 0 80px 0;
+  text-align: center;
+}
+
+.team__item__img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 0 auto;
+}
+
+.team__item__name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+
+.team__item__position {
+  font-family: Noto Sans;
+  font-size: 16px;
+  color: #777777;
+}
+
+.team__text {
+  font-family: Noto Sans;
+  font-size: 16px;
+  color: #777777;
+}
+/*Team*/
+
+/*Contact*/
+.contact {
+
+}
+
+.contact__title {
+
+}
+
+.contact__text {
+  
 }
